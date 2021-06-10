@@ -6,7 +6,7 @@ public class CaixaObjetoTeste {
 
         caixaA.setCoisa(2.3); // double -> Double
 
-        Integer coisa = (Integer) caixaA.getCoisa();
+        Double coisa = (Double) caixaA.getCoisa();
         System.out.println(coisa);
     }
 }
