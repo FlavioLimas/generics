@@ -6,7 +6,14 @@ public class CaixaObjetoTeste {
 
         caixaA.setCoisa(2.3); // double -> Double
 
-        Double coisa = (Double) caixaA.getCoisa();
-        System.out.println(coisa);
+        Double coisaA = (Double) caixaA.getCoisa();
+        System.out.println(coisaA);
+        
+        CaixaObjeto caixaB = new CaixaObjeto();
+    
+        caixaB.setCoisa("Olá");
+    
+        String coisaB = (String) caixaB.getCoisa();
+        System.out.println(coisaB);
     }
 }
