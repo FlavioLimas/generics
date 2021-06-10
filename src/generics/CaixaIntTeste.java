@@ -4,10 +4,10 @@ public class CaixaIntTeste {
     
     public static void main(String[] args) {
         
-        CaixaInt<String> caixaA = new CaixaInt<>();
-        caixaA.setCoisa("Teste");
+        CaixaInt caixaA = new CaixaInt();
+        caixaA.setCoisa(123);
     
-        String coisaA = caixaA.getCoisa();
+        Integer coisaA = caixaA.getCoisa();
         System.out.println(coisaA);
     }
 }
