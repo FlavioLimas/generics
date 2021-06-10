@@ -7,4 +7,8 @@ public class CaixaObjeto {
     public void setCoisa(Object coisa) {
         this.coisa = coisa;
     }
+
+    public Object getCoisa() {
+        return coisa;
+    }
 }
