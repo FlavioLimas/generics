@@ -9,6 +9,11 @@ public class Par<C, V> {
 
     }
 
+    public Par(C chave, V valor) {
+        this.chave = chave;
+        this.valor = valor;
+    }
+
     public C getChave() {
         return chave;
     }
