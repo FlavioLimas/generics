@@ -5,6 +5,10 @@ public class Par<C, V> {
     private C chave;
     private V valor;
 
+    public Par() {
+
+    }
+
     public C getChave() {
         return chave;
     }
