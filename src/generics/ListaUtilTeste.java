@@ -9,7 +9,9 @@ public class ListaUtilTeste {
         List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5, 6);
 
         String ultimaLinguagem = (String) ListaUtil.getLastItem(langs);
+        System.out.println(ultimaLinguagem);
 
-        System.out.println();
+        Integer ultimoNumero = (Integer) ListaUtil.getLastItem(nums);
+        System.out.println(ultimoNumero);
     }
 }
