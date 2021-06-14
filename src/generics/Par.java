@@ -38,7 +38,6 @@ public class Par<C, V> {
         return result;
     }
 
-    @SuppressWarnings("rawtypes")
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
@@ -47,7 +46,7 @@ public class Par<C, V> {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Par other = (Par) obj;
+        Par<?, ?> other = (Par<?, ?>) obj;
         if (chave == null) {
             if (other.chave != null)
                 return false;
