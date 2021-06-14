@@ -3,7 +3,7 @@ package generics;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Pares {
+public class Pares<X, Y> {
     
-    private final Set<Par<String, Boolean>> intens = new TreeSet<>();
+    private final Set<Par<X, Y>> intens = new TreeSet<>();
 }
