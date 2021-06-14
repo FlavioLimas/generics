@@ -16,4 +16,10 @@ public class Pares<C extends Number, V> {
         }
         itens.add(novoPar); // add novo valor OU SEJA atualiza a chave
     }
+
+    public V getValor(C chave) {
+        if(chave == null) return null;
+        return itens.stream()
+                .filter(p -> )
+    }
 }
